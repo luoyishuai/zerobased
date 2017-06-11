@@ -1,4 +1,4 @@
-package com.yishuailuo.zerobased.controller;
+package com.yishuailuo.zerobased.servlet;
 
 import com.yishuailuo.zerobased.model.Customer;
 import com.yishuailuo.zerobased.service.CustomerService;
@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * Created by luoyishuai on 17/6/4.
  */
-@WebServlet("/customer")
+@WebServlet("/customer1")
 public class CustomerServlet extends HttpServlet {
 
     private CustomerService customerService;

@@ -1,5 +1,6 @@
 package com.yishuailuo.zerobased.service;
 
+import com.yishuailuo.projects.myframework.annotation.Service;
 import com.yishuailuo.zerobased.helper.DatabaseHelper;
 import com.yishuailuo.zerobased.model.Customer;
 import com.yishuailuo.zerobased.util.PropsUtil;
@@ -15,6 +16,7 @@ import java.util.Properties;
 /**
  * Created by luoyishuai on 17/6/4.
  */
+@Service
 public class CustomerService {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(CustomerService.class);
